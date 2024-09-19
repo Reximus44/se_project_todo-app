@@ -14,4 +14,4 @@ JavaScript is used to add wanted todos to the list
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+Link: https://reximus44.github.io/se_project_todo-app/ 
