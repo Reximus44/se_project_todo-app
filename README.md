@@ -1,14 +1,14 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+A simple app to keep track of tasks
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+Todos can be added with an apropriate title and date (optional) with the available interface
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+JavaScript is used to add wanted todos to the list 
 
 ## Deployment
 
