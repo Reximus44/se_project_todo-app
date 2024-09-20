@@ -48,15 +48,22 @@ class FormValidator {
 
   _toggleButtonState = () => {
     if (this._hasInvalidInput()) {
-      this._buttonElement.classList.add(this._settings.inactiveButtonClass);
-      this._buttonElement.disabled = true;
+      this._disableButton()
     } else {
       this._buttonElement.classList.remove(this._settings.inactiveButtonClass);
       this._buttonElement.disabled = false;
     }
   };
 
-  // TODO - finish implementing _setEventListeners
+   resetValidation = () => {
+    this._formEl.reset()
+    this._disableButton()
+   }
+
+   _disableButton = () => {
+    this._buttonElement.classList.add(this._settings.inactiveButtonClass);
+    this._buttonElement.disabled = true;
+   }
 
   _setEventListeners() {
     this._inputList = Array.from(
