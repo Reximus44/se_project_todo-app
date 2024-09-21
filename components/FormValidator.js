@@ -21,8 +21,6 @@ class FormValidator {
     errorElement.classList.add(this._settings.errorClass);
   };
 
-  // TODO - implement all other methods
-
   _hideInputError = (inputElement) => {
     const errorElementId = `#${inputElement.id}-error`;
     const errorElement = this._formEl.querySelector(errorElementId);
@@ -32,7 +30,6 @@ class FormValidator {
   };
 
   _checkInputValidity(inputElement) {
-    // TODO - implement this method
     if (!inputElement.validity.valid) {
       this._showInputError(inputElement);
     } else {
